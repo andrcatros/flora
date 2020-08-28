@@ -1,0 +1,83 @@
+.web-nav {
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  border-style: solid;
+  border-width: 0 0 1px;
+  width: 100%;
+  background-color: white;
+}
+
+.web-nav a {
+  float: right;
+  display: block;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+button {
+  float: left;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  border-style: none;
+  background-color: white;
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+}
+.dropdown-content.responsive {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+.dropdown-content.responsive a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*mobile view*/
+@media screen and (max-width: 600px) {
+  .web-nav {
+    display: none;
+  }
+  .mobile-nav {
+    height: 4vh;
+    position: relative;
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+}
+
+/*browser view*/
+@media screen and (min-width: 601px) {
+  .mobile-nav {
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+  }
+}
+
+a:active {
+  background-color: grey;
+}
