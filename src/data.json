@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Tomato",
+    "description": "Prolific plant, red delicious fruit.",
+    "price": 9.99,
+    "category": "vegetables",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pepper",
+    "description": "Bushy plant, small fruit",
+    "price": 12.5,
+    "category": "vegetables",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Eggplant",
+    "description": "Requires plenty of sunshine.",
+    "price": 11.99,
+    "category": "vegetables",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cucumber",
+    "description": "Must be grown in greenhouse.",
+    "price": 2.99,
+    "category": "vegetables",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Melon",
+    "description": "Large vines.",
+    "price": 5.65,
+    "category": "fruits",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Strawberies",
+    "description": "Hardy perennial, continuous fruiting.",
+    "price": 1.99,
+    "category": "fruits",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Banana",
+    "description": "Will die in winter.",
+    "price": 15.99,
+    "category": "fruits",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Yellow Raspberry",
+    "description": "No-thorn variety.",
+    "price": 23.49,
+    "category": "fruits",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pear",
+    "description": "Frost-resistant variety.",
+    "price": 59.99,
+    "category": "fruit trees",
+    "image": "../public/placeholder-small.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Apple",
+    "description": "Delicious heritage variety.",
+    "price": 69.99,
+    "category": "fruit trees",
+    "image": "../public/placeholder-small.jpg"
+  }
+]
